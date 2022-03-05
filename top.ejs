@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+    <title>しちご歯科診察券アプリ</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/send_url.js"></script>
+  </head>
+  <body>
+    <header>
+      <span>しちご歯科診察券アプリ</span>
+    </header>
+    <div class="title">
+      <h1>来院受付</h1>
+      <p>来院された方のお名前を選択してください</p>
+    </div>
+    <div class="contents">
+      <div class="contents-header">
+        <h2>お名前リスト</h2>
+        <!-- 家族の名前を追加するページに飛ばす-->
+        <a href="" class="new-btn">+ 新規登録</a>　
+      </div>
+      <div class="name-list">
+        <div class="list-head">
+          <span class="select-column">選択</span>
+          <span class="name-column">お名前</span>
+        </div>
+        <ul class="list-body">
+          <!--LINEプロフィールの名前を表示、設定されてなかったら空欄-->
+          <li>
+            <div>
+              <input class="select-column" type="radio">
+              <span class="name-column"><% %></span> <!--ここに名前でる-->
+            </div>
+          </li> 
+        </ul>
+        <div class="submit">
+          <input type="submit" value="受付">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
