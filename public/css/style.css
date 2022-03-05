@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 100%;
+    font-family: 'Hiragino Sans', sans-serif;
+    line-height: 1.7;
+    letter-spacing: 1px;
+  }
+  
+  body {
+    margin: 0;
+    background-color: #f6faff;
+    color: #6c7686;
+  }
+  
+  ul,li{
+    list-style-type: none;
+  }
+  header{
+    background-color: #2283e4;
+    height: 30px;
+    color:white
+  }
+
+  .title{
+    padding:0% 5%;
+  }
+
+  h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+  }
+
+  input {
+    font-family: inherit;
+    font-size: 100%;
+  }
+
+.contents{
+  padding:0% 5%
+}
+.contents h2{
+  float:left
+}
+ .contents-header .new-btn {
+    width: 184px;
+    height: 48px;
+    text-align: center;
+    line-height: 45px;
+    font-weight: 600;
+    color: #42cea9;;
+    background-color: #ffffff;
+    border: 2px solid #58d2b2;
+    border-radius: 2px;
+    float:right
+  }
+
+
+.name-list {
+  padding-top: 15px;
+}
+
+.list-head{
+  border-bottom: 4px solid #ffffff;
+}
+
+.name-list .select-column{
+  width:10%;
+  text-align: center;
+}
+.list-body{
+  padding:0%
+}
+
+.list-body .select-column{
+  width:10%;
+  text-align: center;
+}
+
+.list-body .name-column {
+  font-size: 14px;
+  font-weight: 500;
+  color: #8491a5;
+}
